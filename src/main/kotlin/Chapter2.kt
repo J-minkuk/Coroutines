@@ -14,10 +14,6 @@ object Chapter2_1 {
         }
         task.join()
     }
-
-    private fun doSomething() {
-        throw UnsupportedOperationException("Can't do")
-    }
 }
 
 object Chapter2_2 {
