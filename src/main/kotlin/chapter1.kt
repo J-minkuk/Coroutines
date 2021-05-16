@@ -7,7 +7,7 @@ import kotlin.system.measureTimeMillis
 
 /**
  * 10000개 코루틴 : 1162ms
- * 10000개 코루틴 : 1775ms
+ * 100000개 코루틴 : 1775ms
  */
 fun main(args: Array<String>) = runBlocking {
     println("${Thread.activeCount()} threads active at the start")
